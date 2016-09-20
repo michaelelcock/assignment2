@@ -52,17 +52,11 @@ class Formatter(object):
         p = re.compile('é')
         i = p.sub('e', i)
         return i
-#   duplicate code
 
     @staticmethod
-    def height_imp_remover(i):
-        n = re.search(r'\d*[.]\d*m', i)
-        return n.group()
-
-    @staticmethod
-    def weight_imp_remover(i):
-        n = re.search(r'\d*[.]\d* kg', i)
-        return n.group()
+    def height_weight_imp_remover(i, x):
+            n = re.search(r'\d*[.]\d*' + x, i)
+            return n.group()
 
     @staticmethod
     def get_gen(the_list, the_min, the_max):

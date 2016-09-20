@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/pokemon_scraper.py" line="124" />
+    <bookmark url="file://$PROJECT_DIR$/pokemon_scraper.py" line="126" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e09ae88a-6539-4f15-90ea-2c7d8cc3a99c" name="Default" comment="" />
@@ -26,22 +26,10 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="170">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scraper.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scraper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,7 +38,7 @@
       <file leaf-file-name="Controller.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
+            <state relative-caret-position="765">
               <caret line="46" column="13" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="13" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -62,18 +50,30 @@
       <file leaf-file-name="command.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/command.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="75" column="38" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="38" />
+            <state relative-caret-position="133">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnitTester.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UnitTester.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UnitTester.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scraper.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scraper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -84,8 +84,8 @@
       <file leaf-file-name="pokemon_scraper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pokemon_scraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+            <state relative-caret-position="1360">
+              <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -93,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="formatter.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="formatter.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/formatter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+            <state relative-caret-position="366">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -140,11 +140,11 @@
         <option value="$PROJECT_DIR$/controller.py" />
         <option value="$PROJECT_DIR$/command.py" />
         <option value="$PROJECT_DIR$/Controller.py" />
-        <option value="$PROJECT_DIR$/pokemon_scraper.py" />
         <option value="$PROJECT_DIR$/scraper.py" />
-        <option value="$PROJECT_DIR$/formatter.py" />
-        <option value="$PROJECT_DIR$/UnitTester.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/pokemon_scraper.py" />
+        <option value="$PROJECT_DIR$/UnitTester.py" />
+        <option value="$PROJECT_DIR$/formatter.py" />
       </list>
     </option>
   </component>
@@ -180,7 +180,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -201,6 +200,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,7 +254,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest UnitTesting.test_weight_imp_remover" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests in UnitTesting (2)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -266,9 +266,9 @@
       <module name="Pokedex" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UnitTester.py" />
       <option name="CLASS_NAME" value="UnitTesting" />
-      <option name="METHOD_NAME" value="test_weight_imp_remover" />
+      <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -298,21 +298,26 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittest UnitTesting.test_weight_imp_remover" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Pokedex" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UnitTester.py" />
+      <option name="CLASS_NAME" value="UnitTesting" />
+      <option name="METHOD_NAME" value="test_weight_imp_remover" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -475,17 +480,17 @@
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in assignment2" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in UnitTester" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in UnitTesting" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest UnitTesting.test_weight_imp_remover" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in UnitTesting (2)" />
       <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in UnitTesting (1)" />
-      <item index="5" class="java.lang.String" itemvalue="Python.main" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittest UnitTesting.test_weight_imp_remover" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in UnitTesting" />
         <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest UnitTesting.test_weight_imp_remover" />
-        <item index="2" class="java.lang.String" itemvalue="Python.main" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in UnitTesting (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in UnitTester" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in UnitTesting (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in UnitTester" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in UnitTesting (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -506,35 +511,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_UnitTesting_test_weight_imp_remover - 2016.09.19 at 16h 36m 24s.xml">
+    <history-entry file="Unittest_UnitTesting_test_weight_imp_remover - 2016.09.20 at 12h 42m 54s.xml">
       <configuration name="Unittest UnitTesting.test_weight_imp_remover" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_UnitTesting_test_weight_imp_remover - 2016.09.19 at 17h 00m 08s.xml">
-      <configuration name="Unittest UnitTesting.test_weight_imp_remover" configurationId="tests" />
+    <history-entry file="Unittests_in_UnitTester - 2016.09.20 at 12h 37m 50s.xml">
+      <configuration name="Unittests in UnitTester" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_UnitTesting - 2016.09.19 at 15h 17m 26s.xml">
+    <history-entry file="Unittests_in_UnitTesting - 2016.09.20 at 12h 35m 24s.xml">
       <configuration name="Unittests in UnitTesting" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_UnitTesting - 2016.09.19 at 16h 34m 52s.xml">
+    <history-entry file="Unittests_in_UnitTesting - 2016.09.20 at 12h 35m 35s.xml">
       <configuration name="Unittests in UnitTesting" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_UnitTesting - 2016.09.19 at 16h 35m 54s.xml">
+    <history-entry file="Unittests_in_UnitTesting - 2016.09.20 at 12h 38m 56s.xml">
       <configuration name="Unittests in UnitTesting" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_UnitTesting - 2016.09.19 at 16h 36m 05s.xml">
+    <history-entry file="Unittests_in_UnitTesting - 2016.09.20 at 12h 40m 17s.xml">
       <configuration name="Unittests in UnitTesting" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_UnitTesting - 2016.09.19 at 16h 36m 35s.xml">
+    <history-entry file="Unittests_in_UnitTesting - 2016.09.20 at 12h 42m 23s.xml">
       <configuration name="Unittests in UnitTesting" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_UnitTesting - 2016.09.19 at 16h 59m 47s.xml">
+    <history-entry file="Unittests_in_UnitTesting - 2016.09.20 at 12h 42m 59s.xml">
       <configuration name="Unittests in UnitTesting" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_UnitTesting - 2016.09.19 at 17h 00m 13s.xml">
-      <configuration name="Unittests in UnitTesting" configurationId="tests" />
+    <history-entry file="Unittests_in_UnitTesting_(1) - 2016.09.20 at 12h 40m 29s.xml">
+      <configuration name="Unittests in UnitTesting (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_UnitTesting - 2016.09.19 at 17h 01m 49s.xml">
-      <configuration name="Unittests in UnitTesting" configurationId="tests" />
+    <history-entry file="Unittests_in_UnitTesting_(2) - 2016.09.20 at 12h 37m 23s.xml">
+      <configuration name="Unittests in UnitTesting (2)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -546,7 +551,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19978859" sideWeight="0.1140625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.4949303" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.4949303" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19978859" sideWeight="0.8859375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18604651" sideWeight="0.8859375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.8193916" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -862,15 +867,35 @@
     <entry file="file://$PROJECT_DIR$/printer.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/unicodecsv/py3.py" />
     <entry file="file://C:/sessionDemo05.py" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/Controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/cmd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2329">
-          <caret line="137" column="35" selection-start-line="137" selection-start-column="35" selection-end-line="137" selection-end-column="35" />
+        <state relative-caret-position="243">
+          <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IO.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -879,9 +904,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
+        <state relative-caret-position="504">
           <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -889,59 +922,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pokemon_scraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+        <state relative-caret-position="1360">
+          <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/formatter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="75" column="38" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UnitTester.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formatter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
