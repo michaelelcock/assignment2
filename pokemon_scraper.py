@@ -79,10 +79,14 @@ class PokemonScraper(Scraper):
         soup = BeautifulSoup(r, 'html.parser')
         table = soup.find('div', attrs={'class': 'infocard-tall-list'})
         cards = table.find_all('span')
+        c = 0
 
-        for card in cards[self.__min:self.__max]:
-            stuffs = card.find_all(['a', 'small'])
-            dex_data.append([stuff.text for stuff in stuffs[1:4]])
+        for i in range(0, 3):
+            for card in cards[self.__min:self.__max]:
+                stuffs = card.find_all(['a', 'small'])
+                if c < 3:
+                    dex_data.append([stuff.text for stuff in stuffs[1:4]])
+                    c += 1
 
         dex_data = self.format_dex(dex_data, url)
         self.set_nat_dex(dex_data)
@@ -98,10 +102,9 @@ class PokemonScraper(Scraper):
             rows = vt.find_all('td')
 
             indi = [row.text for row in rows]
-
             datum.append(self.__my_formatter.accent_remover(indi[2]))
             datum.append(self.__my_formatter.height_weight_imp_remover(
-                indi[3]), "m")
+                indi[3], "m"))
             datum.append(self.__my_formatter.height_weight_imp_remover(
                 indi[4], " kg"))
             datum.append(self.__my_formatter.comma_remover(indi[6]))

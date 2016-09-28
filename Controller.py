@@ -47,9 +47,10 @@ class Controller(object):
     def start(self, the_gen):
         f = self.my_scraper.get_formatter()
         x = self.my_IO
-        # long Method
         try:
-            self.my_scraper.set_nat_dex(x.load('test01.txt'))
+            self.my_scraper.set_nat_dex(x.load("C:\\Users\\micha\\Desktop\\"
+                                               "PR301_Assignment_2"
+                                               "\\assignment2", 'test01.txt'))
         except FileNotFoundError:
             self.response = self.my_IO.get_user_in(
                 "File not found. Would you like to perform a fresh scrape 'Y "

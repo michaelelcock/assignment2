@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 
 #   lazy Class
 
+
 class Scraper(object):
 
     __my_controller = ''

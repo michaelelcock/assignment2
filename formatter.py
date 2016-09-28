@@ -41,6 +41,7 @@ class Formatter(object):
             datum.append(new_url)
         return the_list
 
+    #   speculative generality
     @staticmethod
     def comma_remover(i):
         p = re.compile(',')
