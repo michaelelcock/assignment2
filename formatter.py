@@ -41,13 +41,6 @@ class Formatter(object):
             datum.append(new_url)
         return the_list
 
-    #   speculative generality
-    @staticmethod
-    def comma_remover(i):
-        p = re.compile(',')
-        i = p.sub('/', i)
-        return i
-
     @staticmethod
     def accent_remover(i):
         p = re.compile('é')

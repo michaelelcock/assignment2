@@ -107,7 +107,7 @@ class PokemonScraper(Scraper):
                 indi[3], "m"))
             datum.append(self.__my_formatter.height_weight_imp_remover(
                 indi[4], " kg"))
-            datum.append(self.__my_formatter.comma_remover(indi[6]))
+            datum.append((indi[6]))
         return the_list
 
     def format_dex(self, the_dex, url):

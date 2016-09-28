@@ -44,7 +44,7 @@ class UnitTesting(unittest.TestCase):
         actual = Formatter.height_weight_imp_remover("15.2 lbs (6.9 kg)"
                                                      , " kg")
         self.assertEqual(expected, actual)
-
+    """
     def test_3scrape_with_comma_remover(self):
         print("test3")
         expected = [['001', 'Bulbasaur', 'Grass', 'Poison',
@@ -56,7 +56,18 @@ class UnitTesting(unittest.TestCase):
         self.my_scraper.web_scraper()
         actual = self.my_scraper.get_nat_dex()
         self.assertListEqual(expected, actual)
-
+    """
+    def test_4scrape_without_comma_remover(self):
+        print("test3")
+        expected = [['001', 'Bulbasaur', 'Grass', 'Poison',
+                     'http://pokemondb.net/pokedex/Bulbasaur', 'Seed Pokemon',
+                     '0.71m', '6.9 kg', '001 (Red,Blue,Yellow,FireRed,'
+                     'LeafGreen)226 (Gold,Silver,Crystal)231'
+                     ' (HeartGold,SoulSilver)080 (X,Y)']]
+        self.my_scraper.set_generation(0)
+        self.my_scraper.web_scraper()
+        actual = self.my_scraper.get_nat_dex()
+        self.assertListEqual(expected, actual)
 
     if __name__ == '__main__':
         unittest.main()
