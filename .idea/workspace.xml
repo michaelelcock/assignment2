@@ -50,8 +50,8 @@
       <file leaf-file-name="UnitTester.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UnitTester.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+            <state relative-caret-position="215">
+              <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -62,7 +62,7 @@
       <file leaf-file-name="scraper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-329">
+            <state relative-caret-position="136">
               <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -74,8 +74,8 @@
       <file leaf-file-name="pokemon_scraper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pokemon_scraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="109" column="35" selection-start-line="109" selection-start-column="35" selection-end-line="109" selection-end-column="35" />
+            <state relative-caret-position="493">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -192,7 +192,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last.edited.regexp" value="0.71m" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in UnitTesting">
+  <component name="RunManager" selected="Python tests.Unittest UnitTesting.test_4scraper_subclass">
     <configuration default="false" name="Unittests in UnitTesting" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,28 +232,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest UnitTesting.test_3assertion_no_file" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Pokedex" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UnitTester.py" />
-      <option name="CLASS_NAME" value="UnitTesting" />
-      <option name="METHOD_NAME" value="test_3assertion_no_file" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="Unittest UnitTesting.test_3comma_remover" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,6 +267,28 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UnitTester.py" />
       <option name="CLASS_NAME" value="UnitTesting" />
       <option name="METHOD_NAME" value="test_4scrape_without_comma_remover" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest UnitTesting.test_4scraper_subclass" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Pokedex" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UnitTester.py" />
+      <option name="CLASS_NAME" value="UnitTesting" />
+      <option name="METHOD_NAME" value="test_4scraper_subclass" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -458,17 +458,17 @@
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in assignment2" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in UnitTesting" />
       <item index="2" class="java.lang.String" itemvalue="Python.main" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest UnitTesting.test_3assertion_no_file" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest UnitTesting.test_3comma_remover" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittest UnitTesting.test_4scrape_without_comma_remover" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest UnitTesting.test_3comma_remover" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest UnitTesting.test_4scrape_without_comma_remover" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittest UnitTesting.test_4scraper_subclass" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in UnitTesting" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest UnitTesting.test_4scrape_without_comma_remover" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest UnitTesting.test_3comma_remover" />
-        <item index="3" class="java.lang.String" itemvalue="Python.main" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest UnitTesting.test_3assertion_no_file" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest UnitTesting.test_4scraper_subclass" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in UnitTesting" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest UnitTesting.test_4scrape_without_comma_remover" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest UnitTesting.test_3comma_remover" />
+        <item index="4" class="java.lang.String" itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -489,9 +489,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_UnitTesting_test_3comma_remover - 2016.09.28 at 15h 55m 43s.xml">
-      <configuration name="Unittest UnitTesting.test_3comma_remover" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittest_UnitTesting_test_3comma_remover - 2016.09.28 at 15h 56m 52s.xml">
       <configuration name="Unittest UnitTesting.test_3comma_remover" configurationId="tests" />
     </history-entry>
@@ -516,6 +513,9 @@
     <history-entry file="Unittest_UnitTesting_test_4scrape_without_comma_remover - 2016.09.28 at 16h 17m 06s.xml">
       <configuration name="Unittest UnitTesting.test_4scrape_without_comma_remover" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittest_UnitTesting_test_4scraper_subclass - 2016.09.28 at 16h 27m 04s.xml">
+      <configuration name="Unittest UnitTesting.test_4scraper_subclass" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittests_in_UnitTesting - 2016.09.28 at 16h 18m 45s.xml">
       <configuration name="Unittests in UnitTesting" configurationId="tests" />
     </history-entry>
@@ -529,7 +529,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19978859" sideWeight="0.1140625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.4949303" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.4949303" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28250402" sideWeight="0.8859375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28250402" sideWeight="0.8859375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.8193916" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -885,31 +885,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scraper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-329">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/command.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pokemon_scraper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="109" column="35" selection-start-line="109" selection-start-column="35" selection-end-line="109" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -931,10 +911,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pokemon_scraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UnitTester.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+        <state relative-caret-position="215">
+          <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
