@@ -84,7 +84,7 @@ class PokemonScraper(Scraper):
         for i in range(0, 3):
             for card in cards[self.__min:self.__max]:
                 stuffs = card.find_all(['a', 'small'])
-                if c < 3:
+                if c < 1:
                     dex_data.append([stuff.text for stuff in stuffs[1:4]])
                     c += 1
 
