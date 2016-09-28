@@ -1,9 +1,8 @@
-from scraper import Scraper
 from bs4 import BeautifulSoup
 import requests
 
 
-class PokemonScraper(Scraper):
+class PokemonScraper(object):
 
     __my_controller = ''
     __my_formatter = ''
