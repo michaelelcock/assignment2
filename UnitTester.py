@@ -41,8 +41,8 @@ class UnitTesting(unittest.TestCase):
     def test_2weight_imp_remover(self):
         print("test2")
         expected = "6.9 kg"
-        actual = Formatter.height_weight_imp_remover("15.2 lbs (6.9 kg)"
-                                                     , " kg")
+        actual = Formatter.height_weight_imp_remover("15.2 lbs (6.9 kg)",
+                                                     " kg")
         self.assertEqual(expected, actual)
     """
     def test_3scrape_with_comma_remover(self):
@@ -98,4 +98,3 @@ class UnitTesting(unittest.TestCase):
 
     if __name__ == '__main__':
         unittest.main()
-

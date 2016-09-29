@@ -113,8 +113,8 @@ class PokemonScraper(object):
         print(url)
         dex_data = self.get_formatter().hash_stripper(the_dex)
         dex_data = self.get_formatter().type_formatter(dex_data)
-        dex_data = self.get_formatter().add_url(self.get_formatter(), dex_data
-                                                , url)
+        dex_data = self.get_formatter().add_url(self.get_formatter(), dex_data,
+                                                url)
         dex_data = self.get_formatter().get_gen(dex_data, self.__min,
                                                 self.__max)
         dex_data = self.scrape_additional(dex_data)

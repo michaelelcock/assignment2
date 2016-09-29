@@ -1,0 +1,2 @@
+I changed the scrapper to only do one pokemon instead of all 721, because it would take forever to test the scrapper if it had to do a fresh scrape each test,
+(scrapes takes 10 minutes to do it without a break point).
